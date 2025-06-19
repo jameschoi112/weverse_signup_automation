@@ -126,7 +126,7 @@ class SlackService:
                         "type": "header",
                         "text": {
                             "type": "plain_text",
-                            "text": "✅ 계정 생성 완료"
+                            "text": "[계정 생성 완료]"
                         }
                     },
                     {

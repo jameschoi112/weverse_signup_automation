@@ -331,16 +331,16 @@ class WeverseAccountCreator:
             duration_str = f"{int(duration.total_seconds() // 60)}분 {int(duration.total_seconds() % 60)}초"
 
             print(f"\n{'=' * 60}")
-            print(f"전체 작업 완료!")
+            print(f"]전체 작업 완료]")
             print(f"소요 시간: {duration_str}")
             print(f"총 {total_count}개 계정 (성공: {success_count}, 실패: {failed_count})")
             print(f"{'=' * 60}")
 
             # Slack 요약 알림
-            if self.slack_service:
-                await self.slack_service.send_bulk_summary(
-                    total_count, success_count, failed_count, self.config.environment
-                )
+            #if self.slack_service:
+            #    await self.slack_service.send_bulk_summary(
+            #        total_count, success_count, failed_count, self.config.environment
+            #    )
 
             # 결과 요약 출력
             print_account_summary(self.accounts, self.config.environment)
