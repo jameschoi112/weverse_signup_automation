@@ -172,7 +172,7 @@ class WeverseAccountCreator:
 
             if self.slack_service:
                 await self.slack_service.send_notification(
-                    "[계정 생성 완료] 이메일 인증 처리 대기",
+                    "[계정 생성 준비] 이메일 인증 처리 대기",
                     account_info
                 )
 

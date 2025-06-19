@@ -92,7 +92,7 @@ def get_user_input():
         'custom_nickname': custom_nickname,
         'delay': delay,
         # 슬랙 설정 고정
-        'slack_webhook_url': "https://hooks.slack.com/services/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",
+        'slack_webhook_url': "https://hooks.slack.com/services/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",
         'gmail_account': {
             "email": "weversetestmail@gmail.com",
             "password": "not_needed_for_api"
