@@ -51,7 +51,7 @@ weverse_automation/
 
 ```bash
 # 저장소 클론
-git clone <repository-url>
+git clone git@github.com:jameschoi112/weverse_signup_automation.git
 cd weverse_signup_automation
 
 # 의존성 설치
