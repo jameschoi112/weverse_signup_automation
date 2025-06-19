@@ -48,8 +48,8 @@ GMAIL_SETTINGS = {
 
 # Slack 설정
 SLACK_SETTINGS = {
-    "default_webhook_url": "https://hooks.slack.com/services/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",
-    "timeout": 10,  # 요청 타임아웃(초)
+    "default_webhook_url": os.getenv('SLACK_WEBHOOK_URL'),
+    "timeout": 30
 }
 
 # 로그 설정

@@ -5,8 +5,13 @@
 import asyncio
 import argparse
 import sys
-import os
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+# .env 파일 로드
+load_dotenv()
+
 
 # 프로젝트 루트를 Python 경로에 추가
 project_root = Path(__file__).parent.parent
@@ -92,7 +97,7 @@ def get_user_input():
         'custom_nickname': custom_nickname,
         'delay': delay,
         # 슬랙 설정 고정
-        'slack_webhook_url': "https://hooks.slack.com/services/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",
+        'slack_webhook_url': os.getenv('SLACK_WEBHOOK_URL'),
         'gmail_account': {
             "email": "weversetestmail@gmail.com",
             "password": "not_needed_for_api"
@@ -173,7 +178,7 @@ async def main():
             'custom_nickname': args.nickname,
             'delay': args.delay,
             # 슬랙 설정 고정
-            'slack_webhook_url': "https://hooks.slack.com/services/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",
+            'slack_webhook_url': os.getenv('SLACK_WEBHOOK_URL'),
             'gmail_account': {
                 "email": "weversetestmail@gmail.com",
                 "password": "not_needed_for_api"

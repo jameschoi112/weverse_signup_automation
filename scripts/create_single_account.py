@@ -6,6 +6,7 @@ import asyncio
 import argparse
 import sys
 from pathlib import Path
+import os
 
 # 프로젝트 루트를 Python 경로에 추가
 project_root = Path(__file__).parent.parent
@@ -110,7 +111,8 @@ async def main():
     # Slack 웹훅 설정
     slack_webhook_url = None
     if not args.no_slack:
-        slack_webhook_url = args.slack_webhook or "https://hooks.slack.com/services/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"
+        slack_webhook_url = os.getenv('SLACK_WEBHOOK_URL') or args.slack_webhook
+
 
     # 설정 표시
     print(f"📋 계정 생성 설정:")
