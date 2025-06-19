@@ -1,0 +1,30 @@
+{
+  "environment": "real",
+  "created_at": "2025-06-19T09:05:32.855388",
+  "total_accounts": 2,
+  "successful_accounts": 2,
+  "failed_accounts": 0,
+  "accounts": [
+    {
+      "email": "w.eversetestmai.l@gmail.com",
+      "password": "4Ql1V5&v",
+      "nickname": "Member_g31zoa",
+      "wid": "W44B22206",
+      "status": "completed",
+      "created_at": "2025-06-19 09:00:18",
+      "updated_at": "2025-06-19 09:02:49",
+      "environment": "real"
+    },
+    {
+      "email": "we.ve.rset.estmail@gmail.com",
+      "password": "9VPkmc!gwx&",
+      "nickname": "Member_bpm3vv",
+      "wid": "W45CA2206",
+      "status": "completed",
+      "created_at": "2025-06-19 09:03:03",
+      "updated_at": "2025-06-19 09:05:28",
+      "environment": "real"
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "environment": "real",
+  "created_at": "2025-06-19T09:46:34.254853",
+  "total_accounts": 1,
+  "successful_accounts": 0,
+  "failed_accounts": 1,
+  "accounts": [
+    {
+      "email": "wev.erset.es.tmail@gmail.com",
+      "password": "gI2Bz$6bA",
+      "nickname": "Member_hz5uj8",
+      "wid": null,
+      "status": "wid_extraction_failed",
+      "created_at": "2025-06-19 09:43:32",
+      "updated_at": "2025-06-19 09:46:10",
+      "environment": "real"
+    }
+  ]
+}

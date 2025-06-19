@@ -1,0 +1,19 @@
+{
+  "environment": "real",
+  "created_at": "2025-06-18T16:46:41.152745",
+  "total_accounts": 1,
+  "successful_accounts": 1,
+  "failed_accounts": 0,
+  "accounts": [
+    {
+      "email": "weverse.test.mai.l@gmail.com",
+      "password": "8xn3lY%^@Y",
+      "nickname": "Member_1kzl99",
+      "wid": "WE7402203",
+      "status": "completed",
+      "created_at": "2025-06-18 16:44:20",
+      "updated_at": "2025-06-18 16:46:40",
+      "environment": "real"
+    }
+  ]
+}
